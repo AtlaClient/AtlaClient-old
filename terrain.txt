@@ -1,0 +1,12 @@
+"ocean",1:0x00800040
+"plain",1,RIDING,FLYING,"WING":0x0000A868
+"forest",2,FLYING,"IRWD","YEW":clGreen
+"mountain",2,FLYING,"MITH","ROOT":clMaroon
+"swamp",2,FLYING,"FLOA":0x0080A0A0
+"jungle",2,FLYING:0x00286040
+"desert",1,RIDING,FLYING,"ROOT":0x00008F9C
+"tundra",2,RIDING,FLYING:0x00603460
+"cavern",1,FLYING,"MITH","ROOT":0x00406060
+"underforest",2,FLYING:0x00006020
+"tunnels",2,"MITH","ROOT":clGray
+"nexus",1,RIDING,FLYING:clGray

@@ -1,0 +1,23 @@
+"Longboat",0,200,"WOOD",25,"SHIP",1,5,1
+"Clipper",0,800,"WOOD",50,"SHIP",1,10,1
+"Galleon",0,1800,"WOOD",75,"SHIP",1,15,1
+"Tower",10,0,"STON",10,"BUIL",1,0,1
+"Camp",50,0,"WOOD",50,"COMB",3,0,1
+"Fort",50,0,"STON",40,"BUIL",1,0,1
+"Castle",250,0,"STON",160,"BUIL",1,0,1
+"Citadel",1250,0,"STON",640,"BUIL",1,0,1
+"Shaft",0,0,0,1
+"Lair",0,0,0,0
+"Ruin",0,0,0,0
+"Cave",0,0,0,0
+"Demon Pit",0,0,0,0
+"Crypt",0,0,0,0
+"Balloon",0,800,"FLOA",50,"SHIP",5,10,1
+"Armored Galleon",200,2500,"IRWD",75,"SHIP",3,15,1
+"Magical Fortress",250,0,"ROOT",160,"BUIL",3,0,1
+"Mine",0,0,"WOOD_OR_STONE",10,"MINI",3,0,1,"IRON"
+"Farm",0,0,"WOOD_OR_STONE",10,"FARM",3,0,1,"GRAI"
+"Ranch",0,0,"WOOD_OR_STONE",10,"RANC",3,0,1,"LIVE"
+"Timber Yard",0,0,"WOOD_OR_STONE",10,"LUMB",3,0,1,"WOOD"
+"Inn",0,0,"WOOD_OR_STONE",10,"BUIL",3,0,1,"SILV"
+"Quarry",0,0,"WOOD_OR_STONE",10,"QUAR",3,0,1,"STON"

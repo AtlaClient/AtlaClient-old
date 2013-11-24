@@ -1,0 +1,121 @@
+"leader","leaders","LEAD",10,MAN,15,0,0,0
+"viking","vikings","VIKI",10,MAN,15,0,0,0
+"barbarian","barbarians","BARB",10,MAN,15,0,0,0
+"plainsman","plainsmen","PLAI",10,MAN,15,0,0,0
+"eskimo","eskimos","ESKI",10,MAN,15,0,0,0
+"nomad","nomads","NOMA",10,MAN,15,0,0,0
+"tribesman","tribesmen","TMAN",10,MAN,15,0,0,0
+"darkman","darkmen","DMAN",10,MAN,15,0,0,0
+"wood elf","wood elves","WELF",10,MAN,15,0,0,0
+"sea elf","sea elves","SELF",10,MAN,15,0,0,0
+"high elf","high elves","HELF",10,MAN,15,0,0,0
+"tribal elf","tribal elves","TELF",10,MAN,15,0,0,0
+"ice dwarf","ice dwarves","IDWA",10,MAN,15,0,0,0
+"hill dwarf","hill dwarves","HDWA",10,MAN,15,0,0,0
+"under dwarf","under dwarves","UDWA",10,MAN,15,0,0,0
+"desert dwarf","desert dwarves","DDWA",10,MAN,15,0,0,0
+"orc","orcs","ORC",10,MAN,15,0,0,0
+"silver","silver","SILV",0,NORMAL,0,0,0,0
+"grain","grain","GRAI","FARM",1,5,NORMAL,FOOD,0,0,0,0
+"livestock","livestock","LIVE","RANC",1,50,NORMAL,FOOD,50,0,0,0
+"fish","fish","FISH","FISH",1,1,NORMAL,FOOD,0,0,0,0
+"iron","iron","IRON","MINI",1,5,NORMAL,0,0,0,0
+"wood","wood","WOOD","LUMB",1,5,NORMAL,0,0,0,0
+"stone","stone","STON","QUAR",1,50,NORMAL,0,0,0,0
+"fur","furs","FUR","HUNT",1,1,NORMAL,0,0,0,0
+"herb","herbs","HERB","HERB",1,0,NORMAL,0,0,0,0
+"horse","horses","HORS","HORS",1,50,NORMAL,MOUNT,70,70,0,0
+"sword","swords","SWOR","WEAP",1,"IRON",1,1,NORMAL,WEAPON,0,0,0,0
+"crossbow","crossbows","XBOW","WEAP",2,"WOOD",1,1,NORMAL,WEAPON,0,0,0,0
+"longbow","longbows","LBOW","WEAP",1,"WOOD",1,1,NORMAL,WEAPON,0,0,0,0
+"battle axe","battle axes","BAXE","WEAP",2,"IRON",1,1,NORMAL,WEAPON,0,0,0,0
+"spear","spears","SPEA","WEAP",2,"WOOD",1,1,NORMAL,WEAPON,0,0,0,0
+"chain armor","chain armor","CARM","ARMO",1,"IRON",1,1,NORMAL,ARMOR,0,0,0,0
+"plate armor","plate armor","PARM","ARMO",3,"IRON",3,3,NORMAL,ARMOR,0,0,0,0
+"light armor","light armor","LARM","ARMO",1,"FUR",1,1,NORMAL,ARMOR,0,0,0,0
+"round shield","round shield","ROSH","ARMO",1,"WOOD",1,1,NORMAL,ARMOR,0,0,0,0
+"wagon","wagons","WAGO","CARP",1,"WOOD",1,50,NORMAL,0,0,0,0
+"mithril","mithril","MITH","MINI",3,10,ADVANCED,0,0,0,0
+"ironwood","ironwood","IRWD","LUMB",3,10,ADVANCED,0,0,0,0
+"winged horse","winged horses","WING","HORS",5,50,ADVANCED,MOUNT,70,70,70,0
+"floater hide","floater hides","FLOA","HUNT",5,1,ADVANCED,0,0,0,0
+"rootstone","rootstone","ROOT","QUAR",3,50,ADVANCED,0,0,0,0
+"yew","yew","YEW","LUMB",3,5,ADVANCED,0,0,0,0
+"mithril sword","mithril swords","MSWO","WEAP",3,"MITH",1,1,ADVANCED,WEAPON,0,0,0,0
+"mithril armor","mithril armor","MARM","ARMO",5,"MITH",1,1,ADVANCED,ARMOR,0,0,0,0
+"double bow","double bows","DBOW","WEAP",5,"YEW",1,1,ADVANCED,WEAPON,0,0,0,0
+"ivory","ivory","IVOR",1,TRADE,0,0,0,0
+"pearls","pearls","PEAR",1,TRADE,0,0,0,0
+"jewelry","jewelry","JEWE",1,TRADE,0,0,0,0
+"figurines","figurines","FIGU",1,TRADE,0,0,0,0
+"tarot cards","tarot cards","TARO",1,TRADE,0,0,0,0
+"caviar","caviar","CAVI",1,TRADE,0,0,0,0
+"wine","wine","WINE",5,TRADE,0,0,0,0
+"spices","spices","SPIC",1,TRADE,0,0,0,0
+"chocolate","chocolate","CHOC",5,TRADE,0,0,0,0
+"truffles","truffles","TRUF",1,TRADE,0,0,0,0
+"vodka","vodka","VODK",5,TRADE,0,0,0,0
+"roses","roses","ROSE",1,TRADE,0,0,0,0
+"perfume","perfume","PERF",1,TRADE,0,0,0,0
+"silk","silk","SILK",5,TRADE,0,0,0,0
+"velvet","velvet","VELV",5,TRADE,0,0,0,0
+"mink","mink","MINK",5,TRADE,0,0,0,0
+"cashmere","cashmere","CASH",5,TRADE,0,0,0,0
+"cotton","cotton","COTT",5,TRADE,0,0,0,0
+"dye","dye","DYE",5,TRADE,0,0,0,0
+"wool","wool","WOOL",5,TRADE,0,0,0,0
+"lion","lions","LION",CANTGIVE,10,MONSTER,15,0,0,0
+"wolf","wolves","WOLF",CANTGIVE,10,MONSTER,15,15,0,0
+"grizzly bear","grizzly bears","GRIZ",CANTGIVE,50,MONSTER,60,0,0,0
+"crocodile","crocodiles","CROC",CANTGIVE,10,MONSTER,15,0,0,0
+"anaconda","anacondas","ANAC",CANTGIVE,50,MONSTER,60,0,0,0
+"giant scorpion","giant scorpions","SCOR",CANTGIVE,10,MONSTER,15,0,0,0
+"polar bear","polar bears","POLA",CANTGIVE,50,MONSTER,60,0,0,0
+"giant rat","giant rats","GRAT",CANTGIVE,10,MONSTER,15,0,0,0
+"giant spider","giant spiders","GSPI",CANTGIVE,50,MONSTER,60,0,0,0
+"giant lizard","giant lizards","GLIZ",CANTGIVE,50,MONSTER,60,0,0,0
+"trent","trents","TREN",CANTGIVE,250,MONSTER,300,0,0,0
+"roc","rocs","ROC",CANTGIVE,250,MONSTER,300,300,300,0
+"bog thing","bog things","BOGT",CANTGIVE,50,MONSTER,60,0,0,0
+"kong","kongs","KONG",CANTGIVE,250,MONSTER,300,0,0,0
+"sphinx","sphinxes","SPHI",CANTGIVE,250,MONSTER,300,300,0,0
+"ice wurm","ice wurms","ICEW",CANTGIVE,250,MONSTER,300,0,0,0
+"dragon","dragons","DRAG",CANTGIVE,250,MONSTER,300,300,300,0
+"centaur","centaurs","CENT",CANTGIVE,50,MONSTER,60,60,0,0
+"kobold","kobolds","KOBO",CANTGIVE,10,MONSTER,15,0,0,0
+"ogre","ogres","OGRE",CANTGIVE,50,MONSTER,60,0,0,0
+"lizard man","lizard men","LMAN",CANTGIVE,10,MONSTER,15,0,0,0
+"wild man","wild men","WMAN",CANTGIVE,10,MONSTER,15,0,0,0
+"sandling","sandlings","SAND",CANTGIVE,10,MONSTER,15,0,0,0
+"yeti","yeti","YETI",CANTGIVE,50,MONSTER,60,0,0,0
+"goblin","goblins","GOBL",CANTGIVE,10,MONSTER,15,0,0,0
+"troll","trolls","TROL",CANTGIVE,50,MONSTER,60,0,0,0
+"ettin","ettins","ETTI",CANTGIVE,50,MONSTER,60,0,0,0
+"skeleton","skeletons","SKEL",10,MONSTER,15,0,0,0
+"undead","undead","UNDE",10,MONSTER,15,0,0,0
+"lich","liches","LICH",10,MONSTER,15,0,0,0
+"imp","imps","IMP",10,MONSTER,15,0,0,0
+"demon","demons","DEMO",50,MONSTER,60,60,0,0
+"balrog","balrogs","BALR",250,MONSTER,300,300,300,0
+"eagle","eagles","EAGL",CANTGIVE,10,MONSTER,15,15,15,0
+"amulet of invulnerability","amulets of invulnerability","XXXX",0,MAGIC,BATTLE,0,0,0,0
+"ring of invisibility","rings of invisibility","RING",0,MAGIC,0,0,0,0
+"cloak of invulnerability","cloaks of invulnerability","CLOA",0,MAGIC,ARMOR,0,0,0,0
+"staff of fire","staves of fire","STAF",0,MAGIC,BATTLE,0,0,0,0
+"staff of lightning","staves of lightning","STAL",0,MAGIC,BATTLE,0,0,0,0
+"amulet of true seeing","amulets of true seeing","AMTS",0,MAGIC,0,0,0,0
+"amulet of protection","amulets of protection","AMPR",0,MAGIC,BATTLE,0,0,0,0
+"runesword","runeswords","RUNE",1,MAGIC,WEAPON,0,0,0,0
+"shieldstone","shieldstones","SHST",0,MAGIC,BATTLE,0,0,0,0
+"magic carpet","magic carpets","CARP",0,MAGIC,15,15,15,0
+"wolf","wolves","ÖOLF",CANTGIVE,1,MONSTER,1,1,1,0
+"eagle","eagles","ÄAGL",CANTGIVE,1,MONSTER,1,1,1,0
+"dragon","dragons","ÃRAG",CANTGIVE,1,MONSTER,1,1,1,0
+"skeleton","skeletons","ÒKEL",CANTGIVE,1,MONSTER,1,1,1,0
+"undead","undead","ÔNDE",CANTGIVE,1,MONSTER,1,1,1,0
+"lich","liches","ËICH",CANTGIVE,1,MONSTER,1,1,1,0
+"imp","imps","ÈMP",CANTGIVE,1,MONSTER,1,1,1,0
+"demon","demons","ÃEMO",CANTGIVE,1,MONSTER,1,1,1,0
+"balrog","balrogs","ÁALR",CANTGIVE,1,MONSTER,1,1,1,0
+"portal","portals","PORT",1,MAGIC,0,0,0,0
+"peasant","peasants","PEAS",10,MAN,15,0,0,0

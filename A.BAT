@@ -1,0 +1,2 @@
+winrar u -as -r ..\atlaclient.rar *.cpp *.h *.rc *.rh *.bpr *.ico *.bmp *.gif *.bat *.cur *.res *.txt *.dfm -x1\*.* -x2\*.* *.htm*
+winrar u -as ..\atla_w.rar atlaclient.exe images\*.* *.txt -xtodo.txt doc\*.*

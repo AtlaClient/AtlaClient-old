@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="atlaclient.exe"/>
+    <OBJFILES value="atlaclient.obj source\MainFrm.obj source\util.obj source\faction.obj 
+      source\items.obj source\skills.obj source\orders.obj source\unit.obj 
+      source\markets.obj source\region.obj source\turn.obj source\reports.obj 
+      source\exprlang.obj source\viewitems.obj source\NewGameFrm.obj 
+      source\ChangeGameFrm.obj source\PackingFrm.obj source\LinkShaftFrm.obj 
+      source\EditOrderDescrFrm.obj source\EditOrderTeachFrm.obj 
+      source\EditOrderBuild.obj source\EditOrderIntFrm.obj 
+      source\EditOrderBuySellFrm.obj source\EditOrderMovingFrm.obj 
+      source\EditOrderAutoGiveFrm.obj source\EditOrderEnterFrm.obj 
+      source\EditOrderByteFrm.obj source\EditOrderCustomFrm.obj 
+      source\EditOrderGiveFrm.obj source\EditOrderSimpleFrm.obj 
+      source\EditOrderAbrFrm.obj source\EditOrderCommentFrm.obj 
+      source\ProdModeSetupFrm.obj source\WedgeModeSetupFrm.obj 
+      source\EventsFrm.obj source\EditItemTypeFrm.obj 
+      source\ShowItemTypesFrm.obj source\EditSkillTypeFrm.obj 
+      source\ShowSkillTypesFrm.obj source\ShowSkillInfosFrm.obj 
+      source\StoreFrm.obj source\RegInfoFrm.obj source\MapFrm.obj 
+      source\import.obj source\OptionsFrm.obj source\EditOrderReceiveFrm.obj 
+      source\AboutFrm.obj source\FormNewUnitFrm.obj source\SaveMapFrm.obj 
+      source\eapfile.obj"/>
+    <RESFILES value="AtlaClient.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) source\MainFrm.dfm source\NewGameFrm.dfm 
+      source\ChangeGameFrm.dfm source\PackingFrm.dfm source\LinkShaftFrm.dfm 
+      source\EditOrderDescrFrm.dfm source\EditOrderTeachFrm.dfm 
+      source\EditOrderBuild.dfm source\EditOrderIntFrm.dfm 
+      source\EditOrderBuySellFrm.dfm source\EditOrderMovingFrm.dfm 
+      source\EditOrderAutoGiveFrm.dfm source\EditOrderEnterFrm.dfm 
+      source\EditOrderByteFrm.dfm source\EditOrderCustomFrm.dfm 
+      source\EditOrderGiveFrm.dfm source\EditOrderSimpleFrm.dfm 
+      source\EditOrderAbrFrm.dfm source\EditOrderCommentFrm.dfm 
+      source\ProdModeSetupFrm.dfm source\WedgeModeSetupFrm.dfm 
+      source\EventsFrm.dfm source\EditItemTypeFrm.dfm 
+      source\ShowItemTypesFrm.dfm source\EditSkillTypeFrm.dfm 
+      source\ShowSkillTypesFrm.dfm source\ShowSkillInfosFrm.dfm 
+      source\StoreFrm.dfm source\RegInfoFrm.dfm source\MapFrm.dfm 
+      source\OptionsFrm.dfm source\EditOrderReceiveFrm.dfm source\AboutFrm.dfm 
+      source\FormNewUnitFrm.dfm source\SaveMapFrm.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx50.lib vcl50.lib"/>
+    <SPARELIBS value="vcl50.lib vclx50.lib"/>
+    <PACKAGES value="vcl50.bpi vclx50.bpi vcljpg50.bpi"/>
+    <PATHCPP value=".;source"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_VIS_NOLIB"/>
+    <MAINSOURCE value="atlaclient.cpp"/>
+    <INCLUDEPATH value="D:\cb5\CBuilder5\Projects\;C:\Cbuilder4\CBuilder4\Projects\;source;$(BCB)\projects\lib;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="D:\cb5\CBuilder5\Projects\;C:\Cbuilder4\CBuilder4\Projects\;source;$(BCB)\projects\lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-ID:\cb5\CBuilder5\Projects\. -IC:\Cbuilder4\CBuilder4\Projects\. -Isource 
+      -I$(BCB)\projects\lib -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix 
+      cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\temp\vcl50.csm -Hc -Vms -Vx -Ve -X- -r- -a4 -b- -k -y -v 
+      -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=9
+Release=1
+Build=11
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=EAP inc.
+FileDescription=AtlaClient
+FileVersion=0.9.1.11
+InternalName=
+LegalCopyright=Copyright (c) 2000 by Evgeny Pashkin
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=0.9.0.0
+Comments=
+
+[Excluded Packages]
+$(BCB)\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+
+[HistoryLists\hlIncludePath]
+Count=11
+Item0=D:\cb5\CBuilder5\Projects\;C:\Cbuilder4\CBuilder4\Projects\;source;$(BCB)\projects\lib;$(BCB)\include;$(BCB)\include\vcl
+Item1=D:\cb5\CBuilder5\Projects;C:\Cbuilder4\CBuilder4\Projects\;source;$(BCB)\projects\lib;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\..\Cbuilder4\CBuilder4\Projects;source;$(BCB)\projects\lib;$(BCB)\include;$(BCB)\include\vcl
+Item3=source;$(BCB)\projects\lib;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\..\cbuilder4\CBuilder4\Projects;..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item5=..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item6=C:\cb4\CBuilder4\Projects\;..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item7=C:\cb4\CBuilder4\Projects;..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item8=C:\cb4\CBuilder4\Projects\;source;..\..\cbuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item9=C:\cb4\CBuilder4\Projects;C:\cb4\CBuilder4\Projects\;source;..\..\cbuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item10=C:\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=12
+Item0=D:\cb5\CBuilder5\Projects\;C:\Cbuilder4\CBuilder4\Projects\;source;$(BCB)\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=D:\cb5\CBuilder5\Projects;C:\Cbuilder4\CBuilder4\Projects\;source;$(BCB)\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\..\Cbuilder4\CBuilder4\Projects;source;$(BCB)\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=source;$(BCB)\projects\lib;$(BCB)\lib\obj;$(BCB)\lib
+Item4=source;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..\..\cbuilder4\CBuilder4\Projects;..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item6=..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item7=C:\cb4\CBuilder4\Projects\;..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item8=C:\cb4\CBuilder4\Projects;..\..\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item9=C:\cb4\CBuilder4\Projects\;source;..\..\cbuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item10=C:\cb4\CBuilder4\Projects;C:\cb4\CBuilder4\Projects\;source;..\..\cbuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item11=C:\cb4\CBuilder4\Projects;source;..\..\cbuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
